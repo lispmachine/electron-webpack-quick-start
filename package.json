@@ -19,5 +19,8 @@
     "electron-builder": "^22.9.1",
     "electron-webpack": "^2.8.2",
     "webpack": "~4.42.1"
+  },
+  "electronWebpack": {
+    "whiteListedModules": ["@material-ui/core"]
   }
 }
