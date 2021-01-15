@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Product() {
+export default function Coffee() {
   const classes = useStyles();
   const [inCart, setInCart] = React.useState(0);
   const addToCart = (n=1) => setInCart(inCart+n);
