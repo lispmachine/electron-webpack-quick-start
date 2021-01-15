@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import SampleCard from './card';
+import Product from './product';
 
 function App() {
-  return <SampleCard/>;
+  return <Product/>;
 }
 
 render(<App/>, document.getElementById('app'));
